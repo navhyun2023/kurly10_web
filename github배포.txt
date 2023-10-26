@@ -1,0 +1,115 @@
+https://github.com/navhyun2023/kurly10.git
+
+navhyun2017@naver.com
+navhyun2023
+moon2023^^
+
+gitbash실행
+1.깃설정
+git init
+
+2.깃환경설정
+git config user.name 'navhyun2023'
+git config user.email 'navhyun2017@naver.com'
+
+3. 본인계정 확인
+git config user.name
+git config user.email
+
+4. 배포할 오리진 저장소 등록
+git remote add origin https://github.com/navhyun2023/kurly10.git
+
+5. 
+git remote -v
+
+
+
+6. staging(엘리베이터 타세요)
+
+git add .
+
+7. commit
+git commit -m '쇼핑몰 마켓컬리 배포'
+
+8. push
+git push origin master
+
+9. github push repository F5=> Deployment url click
+
+10. Deployment => amazone ~~ github pages
+
+11. 배포할 
+Step 1: Add homepage to package.json
+
+"homepage": "https://myusername.github.io/my-app"
+
+12. settings=>pages=>branch=>none master선택 save누름
+=>1~3분후 새로고침F5 주소확인
+"homepage": "https://navhyun2023.github.io/kurly10"
+https://navhyun2023.github.io/kurly10
+
+13. 홈페이지주소를 package.json안에 마지막 }에 , 후 주소 추가
+
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://navhyun2023.github.io/kurly10" 
+}
+
+14. 설치 gh-pages
+Step 2: Install gh-pages and add deploy to scripts in package.json
+
+npm install --save gh-pages
+
+npm i gh-pages
+
+15. package.json   "dependencies" 확인 =>gh-pages 
+
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-daum-postcode": "^3.1.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.64.1",
+    "web-vitals": "^2.1.4"
+  },
+
+16. package.json 에 추가
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+
+17. Step 3: Deploy the site by running npm run deploy
+npm run deploy
+
+18. > kurly@0.1.0 deploy
+> gh-pages -b master -d build
+
+Published
+
+완료 성공!!
+
+19. 깃허브 새로고침F5
+그러면 배포판으로 변경된 것 볼 수 있다.
+
+src=>static변경
+
+20. settings
+21. pages
+22. github pages 
+settings=>pages=>branch=>none master선택 save누름
+=>1~3분후 새로고침F5 주소확인
+
+"homepage": "https://navhyun2023.github.io/kurly10"
+visit site 
+
+

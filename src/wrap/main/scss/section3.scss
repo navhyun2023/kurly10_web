@@ -1,0 +1,140 @@
+#section3 {
+    padding: 90px  0 0 0;
+    width:100%;    
+    background: #fff;
+    .container {
+        width:1050px;    
+        margin: 0 auto;
+        .content {
+            width:100%;
+            .slide-wrap {
+                width: 267px * 4;
+                display: flex;
+                    .slide {
+                            width: 267px;
+                            &.slide1 {
+                                h2 {
+                                    font-size: 28px;
+                                    color:#333;
+                                    font-weight: 600;
+                                }
+                                p {
+                                    padding-top: 20px;
+                                }
+                                div {
+                                    padding: 30px 0 40px 0;
+                                    font-family: 'Noto Sans';
+                                    img {
+                                        width: auto;
+                                    }
+                                    strong {
+                                        font-size: 32px;
+                                        color:#333;
+                                        font-weight: 800;    
+                                        font-family: 'Roboto';
+                                        letter-spacing: -0.5px;
+                                    }
+                                    i {
+                                        font-size: 32px;
+                                        color:#333;
+                                        font-weight: 800; 
+                                        margin: 0 1px;
+                                    }
+                                }
+                                h3 {}
+                            }
+                            .gap {
+                                margin: 0 18px 0 0;
+
+                                .img-box {
+                                    width:100%;
+                                    position: relative;
+                                    z-index: 1;                                    
+                                    > img {
+                                        width:100%;
+                                       
+                                    }
+                                    > span {
+                                        z-index: 2;
+                                        position: absolute;
+                                        bottom: 20px;
+                                        right: 20px;
+                                        width:45px;
+                                        height:45px;
+                                        img {
+                                            width:100%;
+                                        }
+                                    }
+                                }
+                                .caption {
+                                    padding: 15px 0 0 0;
+                                    line-height: 180%;
+                            h3 {
+                                color:#333;
+                                font-size: 16px;
+                                font-weight: 500;
+                            }
+                            h4 {
+                                strong {
+                                    color:#fa622f;
+                                    font-size: 16px;
+                                    font-weight: 600; 
+                                    margin-right:10px;   
+                                }
+                                em {
+                                    color:#333;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                }
+                                span {
+                                    color:#999;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    text-decoration: line-through;
+                                }
+                            }
+                            p {
+                                img {
+                                    width:15px;
+                                    height:15px;
+                                    margin-right:3px;
+                                }
+                                span {
+                                    font-size: 13px;
+                                    color:#999;
+                                }
+                            }
+                        }
+                    }
+
+
+                .next-arrow-btn {
+                    z-index: 2;
+                    position: absolute;
+                    top:127.367px;
+                    right:-30px;
+                    width:60px;
+                    height:60px;
+                    img {
+                        transform: rotate(180deg);
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .prev-arrow-btn {
+                    z-index: 2;
+                    position: absolute;
+                    top:127.367px;
+                    left:-30px;
+                    width:60px;
+                    height:60px;
+                    img {
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                    }
+            }
+        }
+    }    
+}
