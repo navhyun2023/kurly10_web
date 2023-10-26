@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kurly10_web/static/css/main.a2c75e74.css",
+    "main.js": "/kurly10_web/static/js/main.2212d572.js",
+    "static/media/icon_tooltip_tryangle.svg": "/kurly10_web/static/media/icon_tooltip_tryangle.fd310ea30b78e5aa57c7.svg",
+    "index.html": "/kurly10_web/index.html",
+    "static/media/check_off.svg": "/kurly10_web/static/media/check_off.1349c49e7ac5d2de8d17.svg",
+    "static/media/check_on.svg": "/kurly10_web/static/media/check_on.645d002cf257cc8d4c13.svg",
+    "static/media/arrow.svg": "/kurly10_web/static/media/arrow.b18eab99b6e48a345672.svg",
+    "main.a2c75e74.css.map": "/kurly10_web/static/css/main.a2c75e74.css.map",
+    "main.2212d572.js.map": "/kurly10_web/static/js/main.2212d572.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c75e74.css",
+    "static/js/main.2212d572.js"
+  ]
+}
